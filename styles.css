@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+/* Style for the main container */
+.container {
+    width: 600px;               /* Set width of the container */
+    padding: 20px;              /* Add padding inside the container */
+    border: 2px solid black;    /* Add a border around the container */
+    border-radius: 10px;        /* Rounded corners for the container */
+    display: flex;              /* Use flexbox to align children inline */
+    justify-content: space-around; /* Space out blocks evenly */
+    align-items: center;        /* Vertically center the blocks */
+    margin: 0 auto;             /* Center the container horizontally */
+    text-align: center;         /* Center text (if any) inside the blocks */
+    background-color: #f0f0f0;  /* Optional background color for the container */
+}
+
+/* Style for the red block */
+.red {
+    width: 100px;               /* Set the width of the circle */
+    height: 100px;              /* Set the height of the circle */
+    background-color: red;      /* Set the background color to red */
+    border-radius: 50%;         /* Make the block a circle */
+}
+
+/* Style for the green block */
+.green {
+    width: 100px;               /* Set the width of the circle */
+    height: 100px;              /* Set the height of the circle */
+    background-color: green;    /* Set the background color to green */
+    border-radius: 50%;         /* Make the block a circle */
+}
+
+/* Style for the yellow block */
+.yellow {
+    width: 100px;               /* Set the width of the circle */
+    height: 100px;              /* Set the height of the circle */
+    background-color: yellow;   /* Set the background color to yellow */
+    border-radius: 50%;         /* Make the block a circle */
+}
